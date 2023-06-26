@@ -57,7 +57,7 @@ export default function Home() {
   };
 
   return (
-    
+    <Head
     <main className="flex min-h-screen flex-col items-center justify-center px-4 sm:px-24 py-5">
       <h1 className="text-4xl sm:text-6xl font-sans mb-2 text-white">Echo 🔊</h1>
       <h4>

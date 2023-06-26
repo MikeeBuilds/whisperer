@@ -4,7 +4,6 @@ import { useState } from "react"
 import Features from './components/Features';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
-import Head from "next/head";
 
 export default function Home() {
   const [theFile, setTheFile] = useState<File | null>(null);
@@ -57,7 +56,7 @@ export default function Home() {
   };
 
   return (
-    
+    <Head
     <main className="flex min-h-screen flex-col items-center justify-center px-4 sm:px-24 py-5">
       <h1 className="text-4xl sm:text-6xl font-sans mb-2 text-white">Echo 🔊</h1>
       <h4>

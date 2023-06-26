@@ -4,7 +4,6 @@ import { useState } from "react"
 import Features from './components/Features';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
-import Head from "next/head";
 
 export default function Home() {
   const [theFile, setTheFile] = useState<File | null>(null);

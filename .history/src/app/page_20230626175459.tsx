@@ -57,7 +57,12 @@ export default function Home() {
   };
 
   return (
-    
+    <Head>
+        <title>Echo - Audio Transcription</title>
+        <meta name="description" content="Upload an audio file and transcribe it to text." />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <main className="flex min-h-screen flex-col items-center justify-center px-4 sm:px-24 py-5">
       <h1 className="text-4xl sm:text-6xl font-sans mb-2 text-white">Echo 🔊</h1>
       <h4>

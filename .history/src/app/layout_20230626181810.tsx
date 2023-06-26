@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Echo',
-  description: 'Created by Algo Hussle | AlgoCodes_eth on Twitter',
+  description: 'Created by Algo Hussle | ',
 }
 
 export default function RootLayout({

@@ -60,11 +60,11 @@ export default function Home() {
       </Head>
       <main className="container mx-auto px-4 sm:px-24 py-5">
         <section className="text-center">
-          <h1 className="text-blue-600 text-4xl sm:text-6xl font-sans mb-2">Echo 🔊</h1>
-          <h4 className="text-xl text-blue-800">
+          <h1 className="text-blue-800 text-4xl sm:text-6xl font-sans mb-2">Echo 🔊</h1>
+          <h4 className="text-xl">
             <span>Built By Algo Hussle</span>
           </h4>
-          <p className="text-sm sm:text-lg font-sans mb-8 text-blue-800">Select an audio file and Upload to transcribe audio to text.</p>
+          <p className="text-sm sm:text-lg font-sans mb-8">Select an audio file and Upload to transcribe audio to text.</p>
         </section>
 
         <section className="flex flex-col items-center bg-gray-700 rounded-xl p-8 backdrop-blur-md bg-opacity-30">

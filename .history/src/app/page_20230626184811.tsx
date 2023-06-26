@@ -64,7 +64,7 @@ export default function Home() {
           <h4 className="text-xl text-blue-800">
             <span>Built By Algo Hussle</span>
           </h4>
-          <p className="text-sm sm:text-lg font-sans mb-8 text-blue-800">Select an audio file and Upload to transcribe audio to text.</p>
+          <p className="text-sm sm:text-lg font-sans mb-8">Select an audio file and Upload to transcribe audio to text.</p>
         </section>
 
         <section className="flex flex-col items-center bg-gray-700 rounded-xl p-8 backdrop-blur-md bg-opacity-30">

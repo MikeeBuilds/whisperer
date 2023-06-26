@@ -1,6 +1,9 @@
 'use client'
 
 import { useState } from "react"
+import Features from './components/Features';
+import Pricing from './components/Pricing';
+import Contact from './components/Contact';
 import Head from "next/head";
 
 export default function Home() {
@@ -60,14 +63,14 @@ export default function Home() {
       </Head>
       <main className="container mx-auto px-4 sm:px-24 py-5">
         <section className="text-center">
-          <h1 className="text-blue-600 text-4xl sm:text-6xl font-sans mb-2">Echo 🔊</h1>
-          <h4 className="text-xl text-blue-800">
+          <h1 className="text-4xl sm:text-6xl font-sans mb-2">Echo 🔊</h1>
+          <h4 className="text-xl">
             <span>Built By Algo Hussle</span>
           </h4>
-          <p className="text-sm sm:text-lg font-sans mb-8 text-blue-800">Select an audio file and Upload to transcribe audio to text.</p>
+          <p className="text-sm sm:text-lg font-sans mb-8">Select an audio file and Upload to transcribe audio to text.</p>
         </section>
 
-        <section className="flex flex-col items-center bg-gray-700 rounded-xl p-8 backdrop-blur-md bg-opacity-30">
+        <section className="flex flex-col items-center bg-gray-700 rounded-xl p-8 backdrop-blur-md bg-opacity-60">
           <input type="file" accept=".wav, .mp3" onChange={handleFileChange} className="mb-4 p-2" />
           <button
             onClick={callGetTranscription}
@@ -78,22 +81,6 @@ export default function Home() {
           <div className="mt-4 w-full h-max border-2 break-words p-4 bg-white bg-opacity-20 rounded-md backdrop-blur-md">
             {isLoading ? "Loading..." : response ? response : ""}
           </div>
-        </section>
-
-        <section id="about" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
-          <h2 className="text-2xl font-bold mb-2 text-blue-800">About Us</h2>
-          <p className="text-blue-800">Information about your company...</p>
-        </section>
-
-        <section id="services" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
-          <h2 className="text-blue-800 text-2xl font-bold mb-2">Our Services</h2>
-          <p className="text-blue-800">Details about the```jsx
-services you offer...</p>
-        </section>
-
-        <section id="contact" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
-          <h2 className="text-2xl font-bold mb-2 text-blue-800">Contact Us</h2>
-          <p className="text-blue-800">Information on how to contact your company...</p>
         </section>
       </main>
     </div>

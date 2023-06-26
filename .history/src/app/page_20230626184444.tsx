@@ -60,14 +60,14 @@ export default function Home() {
       </Head>
       <main className="container mx-auto px-4 sm:px-24 py-5">
         <section className="text-center">
-          <h1 className="text-blue-600 text-4xl sm:text-6xl font-sans mb-2">Echo 🔊</h1>
-          <h4 className="text-xl text-blue-800">
+          <h1 className="text-4xl sm:text-6xl font-sans mb-2">Echo 🔊</h1>
+          <h4 className="text-xl">
             <span>Built By Algo Hussle</span>
           </h4>
-          <p className="text-sm sm:text-lg font-sans mb-8 text-blue-800">Select an audio file and Upload to transcribe audio to text.</p>
+          <p className="text-sm sm:text-lg font-sans mb-8">Select an audio file and Upload to transcribe audio to text.</p>
         </section>
 
-        <section className="flex flex-col items-center bg-gray-700 rounded-xl p-8 backdrop-blur-md bg-opacity-30">
+        <section className="flex flex-col items-center bg-gray-700 rounded-xl p-8 backdrop-blur-md bg-opacity-60">
           <input type="file" accept=".wav, .mp3" onChange={handleFileChange} className="mb-4 p-2" />
           <button
             onClick={callGetTranscription}
@@ -80,20 +80,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
-          <h2 className="text-2xl font-bold mb-2 text-blue-800">About Us</h2>
-          <p className="text-blue-800">Information about your company...</p>
+        <section id="about" className="mt-10 bg-white bg-opacity-20 rounded-xl p-8 backdrop-blur-md">
+          <h2 className="text-2xl font-bold mb-2">About Us</h2>
+          <p>Echo is a cutting-edge audio to text transcription service. Our mission is to make transcription easy, fast, and affordable for everyone. We use advanced AI technology to provide accurate transcriptions in minutes.</p>
         </section>
 
-        <section id="services" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
-          <h2 className="text-blue-800 text-2xl font-bold mb-2">Our Services</h2>
-          <p className="text-blue-800">Details about the```jsx
-services you offer...</p>
+        <section id="services" className="mt-10 bg-white bg-opacity-20 rounded-xl p-8 backdrop-blur-md">
+          <```jsx
+h2 className="text-2xl font-bold mb-2">Our Services</h2>
+          <p>We offer a range of transcription services to suit your needs. Whether you're a journalist needing an interview transcribed, a student wanting to convert lecture recordings into notes, or a business requiring transcription for meetings, we've got you covered.</p>
         </section>
 
-        <section id="contact" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
-          <h2 className="text-2xl font-bold mb-2 text-blue-800">Contact Us</h2>
-          <p className="text-blue-800">Information on how to contact your company...</p>
+        <section id="contact" className="mt-10 bg-white bg-opacity-20 rounded-xl p-8 backdrop-blur-md">
+          <h2 className="text-2xl font-bold mb-2">Contact Us</h2>
+          <p>If you have any questions or need assistance, please don't hesitate to contact us. You can reach us at support@echo.com or call us at (123) 456-7890. We're here to help!</p>
         </section>
       </main>
     </div>

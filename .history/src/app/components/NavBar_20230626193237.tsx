@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="flex justify-between p-5 bg-blue-500 text-white">
       <div>Echo</div>
       <div>
-        <Link href="/features.tsx">
+        <Link href="./features">
           <span className="mx-2 cursor-pointer">Features</span>
         </Link>
         <Link href="/pricing">

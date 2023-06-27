@@ -17,7 +17,7 @@ export default function Pricing() {
             <h2 className="text-2xl font-bold mb-2">Basic Plan</h2>
             <p>$10/month</p>
             <ul className="list-disc list-inside">
-              <li>Coming Soon...</li>
+              <li></li>
               <li>COming Soon...</li>
             </ul>
           </div>

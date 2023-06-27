@@ -6,7 +6,6 @@ export default function Navbar() {
       <div>
         <Link href="/">
           <span className="text-xl font-bold cursor-pointer">Echo</span>
-        </Link>
       </div>
       <div>
         <Link href="/features">

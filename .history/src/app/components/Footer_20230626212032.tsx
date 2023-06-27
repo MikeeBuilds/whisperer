@@ -14,7 +14,7 @@ export default function Footer() {
           <p>Phone: (123) 456-7890</p>
         </div>
         <div className="flex items-center justify-center md:justify-end">
-          
+          <h3 className="text-lg font-bold mb-3">Social</h3>
           <a
             href="https://twitter.com/algocodes_eth"
             target="_blank"

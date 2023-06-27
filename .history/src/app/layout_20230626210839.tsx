@@ -17,18 +17,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <html lang="en">
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {/* Add more meta tags as needed */}
       </Head>
-      <div className={`${inter.className} gradient-bg flex flex-col min-h-screen`}>
+      <body className={`${inter.className} gradient-bg flex flex-col min-h-screen`}>
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
-      </div>
-    </>
+      </body>
+    </html>
   );
 }

@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="flex justify-between p-5 bg-blue-500 text-white">
       <div>
         <Link href="/">
-          <span className="text-xl font-bold cursor-pointer">Echo</span>
+          <a className="cursor-pointer">Echo</a>
         </Link>
       </div>
       <div>

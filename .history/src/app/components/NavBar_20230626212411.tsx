@@ -5,18 +5,18 @@ export default function Navbar() {
     <nav className="flex justify-between p-5 bg-blue-500 text-white">
       <div>
         <Link href="/">
-          <span className="text-xl font-bold cursor-pointer">Echo</span>
+          <a className="cursor-pointer">Echo</a>
         </Link>
       </div>
       <div>
         <Link href="/features">
-          <span className="mx-2 cursor-pointer">Features</span>
+          <a className="mx-2 cursor-pointer">Features</a>
         </Link>
         <Link href="/pricing">
-          <span className="mx-2 cursor-pointer">Pricing</span>
+          <a className="mx-2 cursor-pointer">Pricing</a>
         </Link>
         <Link href="/contact">
-          <span className="mx-2 cursor-pointer">Contact</span>
+          <a className="mx-2 cursor-pointer">Contact</a>
         </Link>
       </div>
     </nav>

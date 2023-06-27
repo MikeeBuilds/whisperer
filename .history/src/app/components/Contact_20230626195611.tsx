@@ -9,7 +9,7 @@ export default function Contact() {
       <main className="container mx-auto px-4 sm:px-24 py-5">
         <section className="text-center">
           <h1 className="text-4xl sm:text-6xl font-sans mb-2">Contact Us</h1>
-          <p className="text-sm sm:text-lg font-sans mb-8">We're here to help! If you have any questions about our services or need assistance with our app, please don't hesitate to reach out.</p>
+          <p className="text-sm sm:text-lg font-sans mb-8">Were here to help! If you have any questions about our services or need assistance with our app, please don't hesitate to reach out.</p>
         </section>
 
         <section className="bg-white bg-opacity-20 rounded-xl p-8 backdrop-blur-md">

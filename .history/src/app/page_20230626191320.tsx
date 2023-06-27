@@ -88,29 +88,20 @@ export default function Home() {
         <section id="services" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
           <h2 className="text-blue-800 text-2xl font-bold mb-2">Our Services</h2>
           <p className="text-blue-800">
-            At Echo, we offer a wide range of transcription services tailored to meet your specific needs. Our services include:
-          </p>
-          <br />
-          <ul className="list-disc list-inside text-blue-800">
-            <li><span className="font-bold">Audio Transcription:</span> We convert audio files into written text with high accuracy. This service is perfect for transcribing interviews, podcasts, lectures, and more.</li>
-            <li><span className="font-bold">Video Transcription:</span> We transcribe the audio from your videos, making it easy to create subtitles or closed captions.</li>
-            <li><span className="font-bold">Real-Time Transcription:</span> Need transcription services in real time? We've got you covered. This service is ideal for live events, webinars, and conferences.</li>
-            <li><span className="font-bold">Multi-Language Transcription:</span> Our advanced AI technology can transcribe audio in multiple languages.</li>
-            <li><span className="font-bold">Custom Transcription:</span> Have specific transcription needs? Contact us and we'll work with you to provide a customized solution.</li>
-          </ul>
+          At Echo, we offer a wide range of transcription services tailored to meet your specific needs. Our services include:
 
+Audio Transcription: We convert audio files into written text with high accuracy. This service is perfect for transcribing interviews, podcasts, lectures, and more.
+Video Transcription: We transcribe the audio from your videos, making it easy to create subtitles or closed captions.
+Real-Time Transcription: Need transcription services in real time? We've got you covered. This service is ideal for live events, webinars, and conferences.
+Multi-Language Transcription: Our advanced AI technology can transcribe audio in multiple languages.
+Custom Transcription: Have specific transcription needs? Contact us and we'll work with you to provide a customized solution.
+
+          </p>
         </section>
 
         <section id="contact" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
           <h2 className="text-2xl font-bold mb-2 text-blue-800">Contact Us</h2>
-          <p className="text-blue-800">We're here to help! If you have any questions about our services or need assistance with our app, please don't hesitate to reach out.</p>
-          <ul className="list-none text-blue-800">
-            <li><strong>Email:</strong> support@echo.com</li>
-            <li><strong>Phone:</strong> (123) 456-7890</li>
-            <li><strong>Address:</strong> 123 Echo Street, Transcription City, 12345</li>
-          </ul>
-          <p className="text-blue-800 mt-4">Our support team is available Monday to Friday, from 9:00 AM to 5:00 PM EST. We strive to respond to all inquiries within 24 hours.</p>
-
+          <p className="text-blue-800">Information on how to contact your company...</p>
         </section>
       </main>
     </div>

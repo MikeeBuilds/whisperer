@@ -82,7 +82,7 @@ export default function Home() {
 
         <section id="about" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
           <h2 className="text-2xl font-bold mb-2 text-blue-800">About Us</h2>
-          <p className="text-blue-800">Echo is a leading provider of audio-to-text transcription services. We leverage the power of advanced AI technology to deliver fast, accurate transcriptions. Our goal is to simplify the transcription process and provide a valuable service to professionals, students, and anyone in need of high-quality transcriptions. Whether youre a journalist, a researcher, or a student, Echo is here to make your life easier.</p>
+          <p className="text-blue-800">Echo is a leading provider of audio-to-text transcription services. We leverage the power of advanced AI technology to deliver fast, accurate transcriptions. Our goal is to simplify the transcription process and provide a valuable service to professionals, students, and anyone in need of high-quality transcriptions. Whether you're a journalist, a researcher, or a student, Echo is here to make your life easier.</p>
         </section>
 
         <section id="services" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
@@ -94,16 +94,16 @@ export default function Home() {
           <ul className="list-disc list-inside text-blue-800">
             <li><span className="font-bold">Audio Transcription:</span> We convert audio files into written text with high accuracy. This service is perfect for transcribing interviews, podcasts, lectures, and more.</li>
             <li><span className="font-bold">Video Transcription:</span> We transcribe the audio from your videos, making it easy to create subtitles or closed captions.</li>
-            <li><span className="font-bold">Real-Time Transcription:</span> Need transcription services in real time? Weve got you covered. This service is ideal for live events, webinars, and conferences.</li>
+            <li><span className="font-bold">Real-Time Transcription:</span> Need transcription services in real time? We've got you covered. This service is ideal for live events, webinars, and conferences.</li>
             <li><span className="font-bold">Multi-Language Transcription:</span> Our advanced AI technology can transcribe audio in multiple languages.</li>
-            <li><span className="font-bold">Custom Transcription:</span> Have specific transcription needs? Contact us and well work with you to provide a customized solution.</li>
+            <li><span className="font-bold">Custom Transcription:</span> Have specific transcription needs? Contact us and we'll work with you to provide a customized solution.</li>
           </ul>
 
         </section>
 
         <section id="contact" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
           <h2 className="text-2xl font-bold mb-2 text-blue-800">Contact Us</h2>
-          <p className="text-blue-800">Were here to help! If you have any questions about our services or need assistance with our app, please dont hesitate to reach out.</p>
+          <p className="text-blue-800">We're here to help! If you have any questions about our services or need assistance with our app, please dont hesitate to reach out.</p>
           <ul className="list-none text-blue-800">
             <li><strong>Email:</strong> support@echo.com</li>
             <li><strong>Phone:</strong> (123) 456-7890</li>

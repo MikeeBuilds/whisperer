@@ -82,7 +82,7 @@ export default function Home() {
 
         <section id="about" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
           <h2 className="text-2xl font-bold mb-2 text-blue-800">About Us</h2>
-          <p className="text-blue-800">Echo is a leading provider of audio-to-text transcription services. We leverage the power of advanced AI technology to deliver fast, accurate transcriptions. Our goal is to simplify the transcription process and provide a valuable service to professionals, students, and anyone in need of high-quality transcriptions. Whether youre a journalist, a researcher, or a student, Echo is here to make your life easier.</p>
+          <p className="text-blue-800">Echo is a leading provider of audio-to-text transcription services. We leverage the power of advanced AI technology to deliver fast, accurate transcriptions. Our goal is to simplify the transcription process and provide a valuable service to professionals, students, and anyone in need of high-quality transcriptions. Whether you're a journalist, a researcher, or a student, Echo is here to make your life easier.</p>
         </section>
 
         <section id="services" className="mt-10 bg-white bg-opacity-30 rounded-xl p-8 backdrop-blur-md">
